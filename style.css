@@ -1,0 +1,28 @@
+body {
+    font-size: 15pt;
+}
+form{
+  display: inline-block;
+}
+#photo{
+  width: 300px;
+  margin-bottom:20px;
+  margin-top: 20px;
+}
+#card{
+  margin: 0 20px;
+  border: 1px solid #000000;
+  margin-top: 20px;
+  
+}
+p{
+  font-size: 15px;
+}
+#submit{
+  margin-left:39px;
+  width: 80%;
+}
+h1{
+  font-family: "Grenze Gotisch";
+  font-size: 50px;
+}
