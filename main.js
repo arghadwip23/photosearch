@@ -3,7 +3,7 @@ $('form').submit(function(event) {
   event.preventDefault();
   $('#photo').empty();
   var search = $('#search').val();
-  var url = 'http://api.unsplash.com/search/photos?query='+search+'&client_id=euaKcy6yRwe6Y1AiqT0SojLVM-mBOnHDd46u9nsqsLU&per_page=35';
+  var url = 'http://api.unsplash.com/search/photos?query='+search+'&client_id=bHBu7kGXLQQl9taGTM7Dm0jndWbqohyAUPoT1vr0DEM&per_page=35';
   
   $.ajax({
     method: 'GET',
